@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@600;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-image: url(https://media.istockphoto.com/id/1213363511/vector/abstract-blurred-background-defocused-blue-gradient.jpg?s=612x612&w=0&k=20&c=Kl-cljKkxzJNZ8mnpyyPKWUtIOQIoBuZQNvltxLhxhw=);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: chocolate;
+  margin: 20px auto;
+}
+.films {
+  width: 90vw;
+  margin: 0 auto;
+  padding: 10px;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.movie {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: 400px;
+  height: 480px;
+  padding: 5px;
+  background-color: rgba(179, 215, 232, 0.317);
+  border: 2px solid rgb(255, 255, 255);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* .movie:hover {
+  width: 420px;
+  height: 500px;
+  transition: 0.5s;
+} */
+
+.movie img:hover {
+  width: 240px;
+  height: 320px;
+  transition: 0.5s;
+}
+.poster {
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  font-family: "Bebas Neue", cursive;
+  word-spacing: 3px;
+  font-weight: 500;
+  background-color: chocolate;
+}
+
+h3 {
+  color: rgb(252, 210, 0);
+}
+
+.watch {
+  /* text-decoration: none; */
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: 5px;
+  /* background-color: chocolate; */
+}
+
+.watch:hover {
+  color: chocolate;
+  background-color: white;
+}
